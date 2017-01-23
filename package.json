@@ -1,0 +1,26 @@
+{
+  "name": "restpop",
+  "version": "1.0.0",
+  "description": "Rest Pop its an API rest like Wallapop",
+  "main": "bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wholedev/RestPop.git"
+  },
+  "keywords": [
+    "Restify",
+    "NodePop"
+  ],
+  "author": "Adrián Polo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wholedev/RestPop/issues"
+  },
+  "homepage": "https://github.com/wholedev/RestPop#readme",
+  "dependencies": {
+    "restify": "^4.3.0"
+  }
+}
