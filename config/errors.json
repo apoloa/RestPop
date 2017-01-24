@@ -1,0 +1,14 @@
+{
+  "INVALID_JSON":{
+    "ES":{
+      "status": 400,
+      "code": 200,
+      "message": "JSON Invalido"
+    },
+    "EN":{
+      "status": 400,
+      "code": 200,
+      "message": "Invalid JSON"
+    }
+  }
+}
