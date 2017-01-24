@@ -24,6 +24,7 @@
   "homepage": "https://github.com/wholedev/RestPop#readme",
   "dependencies": {
     "bunyan": "^1.8.5",
+    "jsonwebtoken": "^7.2.1",
     "restify": "^4.3.0"
   },
   "devDependencies": {

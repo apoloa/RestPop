@@ -7,6 +7,7 @@ const routerInjector = require('../lib/router-injector');
 
 const server = restify.createServer();
 const errors = require('../config/errors.json');
+const auth = require('../lib/auth');
 errorInjector.inject(errors);
 
 server.use(restify.queryParser());
@@ -23,6 +24,8 @@ restify.CORS.ALLOW_HEADERS.push('x_refresh_token');
 server.use(restify.CORS({
     credentials: true
 }));
+
+server.use(auth.checkToken); //Add middleware for jwt token
 
 routerInjector(server, path.join(__dirname, '../routes'));
 
