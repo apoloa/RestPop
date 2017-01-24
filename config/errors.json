@@ -1,14 +1,50 @@
 {
-  "INVALID_JSON":{
-    "ES":{
-      "status": 400,
-      "code": 200,
-      "message": "JSON Invalido"
-    },
-    "EN":{
-      "status": 400,
-      "code": 200,
-      "message": "Invalid JSON"
+  "NAME_REQUIRED": {
+    "status": 400,
+    "code": 1,
+    "message": {
+      "ES": "Se require nombre",
+      "EN": "name required"
+    }
+  },
+  "EMAIL_REQUIRED": {
+    "status": 400,
+    "code": 1,
+    "message": {
+      "ES": "Se require email",
+      "EN": "email required"
+    }
+  },
+  "INVALID_MAIL": {
+    "status": 400,
+    "code": 1,
+    "message": {
+      "ES": "Mail invalido",
+      "EN": "invalid mail"
+    }
+  },
+  "PASSWORD_REQUIRED": {
+    "status": 400,
+    "code": 1,
+    "message": {
+      "ES": "Se require password",
+      "EN": "password required"
+    }
+  },
+  "EMAIL_ALREADY_REGISTERED": {
+    "status": 409,
+    "code": 1,
+    "message": {
+      "ES": "El email ya esta registrado",
+      "EN": "email already registered"
+    }
+  },
+  "REGISTER_USER": {
+    "status": 500,
+    "code": 1,
+    "message": {
+      "ES": "Excepcion registrando usuario",
+      "EN": "Problems in the register user"
     }
   }
 }

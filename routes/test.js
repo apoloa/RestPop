@@ -2,8 +2,8 @@
 
 const restify = require('restify');
 
-function test(req, res, next){
-    return next(res.send(200, "Service is Running"));
+function test (req, res, next) {
+    return next(res.send(200, 'Service is Running'));
 }
 
 module.exports = {

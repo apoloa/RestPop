@@ -25,6 +25,9 @@ server.use(restify.CORS({
     credentials: true
 }));
 
+require('../lib/mongooseConnector');
+require('../model');
+
 server.use(auth.checkToken); //Add middleware for jwt token
 
 routerInjector(server, path.join(__dirname, '../routes'));
