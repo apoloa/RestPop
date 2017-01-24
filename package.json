@@ -4,7 +4,8 @@
   "description": "Rest Pop its an API rest like Wallapop",
   "main": "bin/www",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node bin/www"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/wholedev/RestPop#readme",
   "dependencies": {
+    "bunyan": "^1.8.5",
     "restify": "^4.3.0"
   }
 }
