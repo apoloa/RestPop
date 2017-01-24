@@ -5,7 +5,7 @@
   "main": "bin/www",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node bin/www"
+    "start": "node bin/www"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,9 @@
   "dependencies": {
     "bunyan": "^1.8.5",
     "restify": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "jshint": "^2.9.4"
   }
 }
