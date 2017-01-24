@@ -5,6 +5,7 @@
   "main": "bin/www",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . && jshint --exclude ./node_modules .",
     "start": "node bin/www"
   },
   "repository": {
