@@ -1,0 +1,50 @@
+[{
+  "name": "Iphone 7",
+  "typeAd": "sell",
+  "price": 1079,
+  "typeMoney":"euro",
+  "photo": "https://store.storeimages.cdn-apple.com/4662/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-select-2016?wid=250&hei=351&fmt=png-alpha&qlt=95&.v=1471651056976",
+  "tags": ["mobile"]
+},{
+  "name": "Yamaha YZF-R 125",
+  "typeAd": "sell",
+  "price": 4449,
+  "typeMoney":"euro",
+  "photo": "https://cdn.yamaha-motor.eu/product_assets/2017/YZF-R125/950-75/2017-Yamaha-YZF-R125-EU-Race-Blu-Studio-002.jpg",
+  "tags": ["motor"]
+},{
+  "name": "MacBook Pro",
+  "typeAd": "want",
+  "price": 2999,
+  "typeMoney":"euro",
+  "photo": "https://store.storeimages.cdn-apple.com/4662/as-images.apple.com/is/image/AppleInc/aos/published/images/m/bp/mbp15touch/gray/mbp15touch-gray-select-201610?wid=452&hei=420&fmt=jpeg&qlt=95&op_sharpen=0&resMode=bicub&op_usm=0.5,0.5,0,0&iccEmbed=0&layer=comp&.v=1478283595345",
+  "tags": ["work","lifestyle"]
+},{
+  "name": "Bic",
+  "typeAd": "sell",
+  "price": 0.1,
+  "typeMoney":"euro",
+  "photo": "http://www.abc.es/media/recreo/2016/02/17/boli-bic--620x349.jpg",
+  "tags": ["work"]
+},{
+  "name": "Máquina de Palomitas",
+  "typeAd": "sell",
+  "price": 82.69,
+  "typeMoney":"euro",
+  "photo": "https://images-na.ssl-images-amazon.com/images/I/71JYaU4o7hL._SL1500_.jpg",
+  "tags": ["lifestyle"]
+},{
+  "name": "Audi TT 2015",
+  "typeAd": "want",
+  "price": 42349,
+  "typeMoney":"euro",
+  "photo": "http://www.autobild.es/sites/default/files/imagecache/ab_galeria_coches/externals/audi-tt_coupe_2015_c01.jpg",
+  "tags": ["motor","lifestyle"]
+},{
+  "name": "Ferrari F12 Berlinetta",
+  "typeAd": "want",
+  "price": 309437,
+  "typeMoney":"euro",
+  "photo": "http://auto.ferrari.com/es_ES/wp-content/uploads/sites/12/2014/09/f12-berlinetta-thumb.jpg",
+  "tags": ["motor","lifestyle"]
+}]

@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . && jshint --exclude ./node_modules .",
-    "start": "node bin/www"
+    "populateDB": "node ./utilities/populateDB.js",
+    "start": "node bin/www",
+    "docs":"apidoc -i ./routes -o ./doc/"
   },
   "repository": {
     "type": "git",

@@ -7,7 +7,49 @@ const User = mongoose.model('User');
 const sha512 = require('js-sha512').sha512;
 const validator = require('validator');
 
-
+/**
+ * @api {post} /apiV1/users/ Register
+ * @apiVersion 1.0.1
+ * @apiGroup Users
+ * @apiDescription Register a new user
+ * @apiParam {String} name Name of the user
+ * @apiParam {String} email Email of the user
+ * @apiParam {String} password Password of the user
+ *
+ * @apiHeader {String} lang=en Language of the results of the API.
+ *
+ * @apiHeaderExample {json} Request-Example:
+ *  "name" : "A"
+ *  "email":"a@a.com",
+ *  "password":"********"
+ *
+ * @apiSuccessExample {json} Success-Response:
+ *  {
+ *  "success": true,
+ *  "user": {
+ *      "__v": 0,
+ *      "name": "a",
+ *      "email": "a@a.com",
+ *      "password": "XXXXXXXX",
+ *      "_id": "XXXXXXXX"
+ *      }
+ *  }
+ * @apiError success 'False'
+ * @apiError message Error message
+ * @apiError message.id Error id message
+ * @apiError message.status Response status code
+ * @apiError message.description Description of the error
+ *
+ * @apiErrorExample {json} Error-Response:
+ * {"success":false,
+ *  "message":{
+ *      "identifier": "ERROR_DATABASE",
+ *       "statusCode": "400",
+ *       "messages": "Error in database"
+ *    }
+ * }
+ *
+ */
 function registerUser (req, res, next) {
     if (!req.params.name) {
         return next(new restify.errors.NameRequiredError());

@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    cluster: false,
+    cluster: true,
     apiPort: 8080,
     jwt: {
         secret: 'supersecret',

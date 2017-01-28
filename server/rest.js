@@ -8,6 +8,7 @@ const routerInjector = require('../lib/router-injector');
 const server = restify.createServer();
 const errors = require('../config/errors.json');
 const auth = require('../lib/auth');
+const lang = require('../lib/lang');
 errorInjector.inject(errors);
 
 server.use(restify.queryParser());
@@ -29,7 +30,7 @@ require('../lib/mongooseConnector');
 require('../model');
 
 server.use(auth.checkToken); //Add middleware for jwt token
-
+server.use(lang.parseLanguage);
 routerInjector(server, path.join(__dirname, '../routes'));
 
 module.exports = server;
